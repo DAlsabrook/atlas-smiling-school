@@ -96,7 +96,7 @@ body {
 
 /* Nav bar */
 .logo {
-  height: 40px;
+  height: 35px;
 }
 
 .holberton_school-icon-menu {
@@ -107,7 +107,6 @@ body {
 footer {
   background-color: var(--color-purple-dark);
   height: 300px;
-  border-top: 1px solid white;
 }
 
 .copyright {
