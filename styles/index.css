@@ -1,8 +1,52 @@
+header {
+  height: 1150px;
+  background-color: var(--color-purple-dark);
+}
 .header-background {
   background-image: url('../images/pic_1.jpg');
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: 1093px;
+  height: 900px;
+}
+
+.get-schooled {
+  font-size: 3.7rem;
+  font-weight: var(--weight-bold);
+}
+
+.get-schooled-subtitle {
+  font-size: 1rem;
+  font-weight: var(--weight-bold);
+}
+
+.get-schooled-button {
+  background-color: var(--color-purple);
+  font-weight: var(--weight-bold);
+}
+
+.pro {
+  height: 150px;
+}
+
+.pros-title {
+  font-weight: var(--weight-light);
+}
+
+.purple-text {
+  color: var(--color-purple);
+  font-weight: var(--weight-bold);
+}
+
+.quotes-section {
+  background-color: var(--color-purple);
+  height: 591px;
+}
+
+/* Small screen+ */
+@media (min-width: 576px) {
+.header-background {
+    height: 1000px;
+  }
 }
 
