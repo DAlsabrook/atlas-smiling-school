@@ -28,33 +28,33 @@
 </head>
 
 <body>
-  <header>
-    <div class="header-background container-fluid d-flex p-0 g-0 m-0">
-      <div class="content-container flex-grow-1 col-11 col-md-10">
-        <nav class="navbar navbar-expand-md container-fluid row pt-4 justify-content-start">
+  <header class="m-0 p-0 g-0 d-flex justify-content-center">
+    <div class="header-background d-flex justify-content-center p-0 g-0 m-0">
+      <div class="content-container container-fluid p-0">
+        <nav class="navbar navbar-expand-md container-fluid row pt-5">
 
           <!-- Hamburger -->
-          <button class="navbar-toggler align-self-start" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+          <button class="navbar-toggler align-self-start col-2" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
             aria-expanded="false" aria-label="Toggle navigation">
             <span class="holberton_school-icon-menu text-white"></span>
           </button>
 
           <!-- Smile school logo -->
-          <a class="navbar-brand container d-flex flex-column col-4 m-0" href="./index.html" >
-            <img src="./images/smile_off.png" alt="smile logo" class="header-logo">
-            <img src="./images/logo.png" alt="text smile school" class="mt-2 ml-md-3 header-logo">
+          <a class="navbar-brand container d-flex flex-column col-4 mx-auto" href="./index.html" >
+            <img src="./images/smile_off.png" alt="smile logo" class="logo">
+            <img src="./images/logo.png" alt="text smile school" class="mt-2 logo">
           </a>
 
           <!-- Section to be collapsed nav items here -->
-          <div class="collapse navbar-collapse align-self-end" id="navbarNav">
-            <ul class="navbar-nav d-flex flex-column align-items-center col-6">
-              <li class="nav-item">
-                <a class="nav-link" href="#">COURSES</a>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav d-flex flex-column align-items-center col-3 m-auto pl-5 ml-5">
+              <li class="nav-item pl-5">
+                <a class="nav-link" href="./courses.html">COURSES</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">PRICING</a>
+              <li class="nav-item pl-5">
+                <a class="nav-link" href="./pricing.html">PRICING</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item pl-5">
                 <a class="nav-link" href="#">LOGIN</a>
               </li>
             </ul>
@@ -65,6 +65,21 @@
     </div>
   </header>
   <main></main>
-  <footer></footer>
+  <footer>
+    <div class="content-container d-flex flex-column align-items-center justify-content-center">
+      <div class="d-flex flex-column justify-content-between align-items-center">
+        <a class="container d-flex flex-row mt-5" href="./index.html">
+          <img src="./images/smile_off.png" alt="smile logo" class="logo">
+          <img src="./images/logo.png" alt="text smile school" class="ml-3 logo">
+        </a>
+        <div class="d-flex flex-row mt-5">
+          <a href="#" class="holberton_school-icon-ic_facebook"></a>
+          <a href="#" class="holberton_school-icon-ic_twitter"></a>
+          <a href="#" class="holberton_school-icon-ic_instagram"></a>
+        </div>
+      </div>
+      <div class="copyright mt-5">&copy;smileschool 2020</div>
+    </div>
+  </footer>
 </body>
 </html>
