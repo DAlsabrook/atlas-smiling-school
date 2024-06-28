@@ -62,20 +62,29 @@ header {
 .video-section {
   color: var(--color-purple-dark);
 }
-
-.video {
-  width: 255px;
+.cards-wrapper {
+  width: 80%;
 }
 
-.thumbnail{
-  width: 255px;
-  height: 154px;
+.card {
+  width: 15rem;
+}
+
+.card-text {
+  font-size: .6rem;
+  color: #071629;
+  opacity: 50%;
 }
 
 .video-guy {
-  width: 50px;
-  height: auto;
+  width: 25px;
+  height: 25px;
   border-radius: 50%;
+}
+
+.video-name {
+  font-size: small;
+  font-weight: 300;
 }
 
 .star {
@@ -85,7 +94,6 @@ header {
 .video-time {
   font-size: .7rem;
   font-weight: 700;
-  color: var(--color-purple);
 }
 
 /* Member section */
