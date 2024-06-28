@@ -45,11 +45,17 @@ header {
 /* Quote section */
 .quotes-section {
   background-color: var(--color-purple);
-  height: 500px;
+  height: 400px;
 }
 
 .quote-guy {
-  width: 140px;
+  width: 160px;
+  height: 140px;
+  border-radius: 50%;
+}
+
+.carousel-icon {
+  height: 50px;
 }
 
 /* Video section */
@@ -103,6 +109,10 @@ header {
   header {
     height: 1050px;
     background-color: var(--color-purple-dark);
+  }
+
+  .quotes-section {
+    height: 300px;
   }
 }
 
