@@ -5,6 +5,7 @@ header {
 
 .header-background {
   background-image: url('../images/pic_1.jpg');
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 900px;
@@ -69,6 +70,9 @@ header {
 .card {
   width: 15rem;
 }
+.card-title {
+  font-size: .7rem;
+}
 
 .card-text {
   font-size: .6rem;
@@ -83,7 +87,7 @@ header {
 }
 
 .video-name {
-  font-size: small;
+  font-size: .6rem;
   font-weight: 300;
 }
 
@@ -92,7 +96,7 @@ header {
 }
 
 .video-time {
-  font-size: .7rem;
+  font-size: .6rem;
   font-weight: 700;
 }
 
