@@ -38,13 +38,14 @@ button {
   cursor: pointer;
 }
 
-button:focus {
+button:focus,
+.navbar-toggler:focus {
   outline: none;
   border: none;
   box-shadow: none;
 }
 
-button:hover {
+button:hover{
   opacity: 0.9;
 }
 
@@ -95,8 +96,14 @@ body {
 }
 
 /* Nav bar */
-.logo {
-  height: 35px;
+.header-logo-img {
+  height: 30px;
+  width: 50px;
+}
+
+.header-logo-text {
+  width: 150px !important;
+  height: 40px !important;
 }
 
 .holberton_school-icon-menu {
