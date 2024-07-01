@@ -11,6 +11,35 @@ header {
   background-color: var(--color-purple-dark);
 }
 
+.go-pro {
+  font-size: 4rem;
+  font-weight: 700;
+}
+.button {
+  background-color: var(--color-purple);
+  font-size: .9rem;
+  font-weight: 600;
+  width: 162px;
+  height: 44px;
+}
+
+.holberton_school-icon-check {
+  color: #82d24f;
+  font-size: 1.8rem;
+}
+
+.checkbox-text {
+  line-height: 33px;
+  font-size: 18px;
+}
+
+.checkbox-img {
+  padding-left: 0 !important;
+}
+.signal {
+  width: 88px;
+}
+
 /* Quote section */
 .quotes-section {
   background-color: var(--color-purple);
