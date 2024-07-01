@@ -95,6 +95,16 @@ body {
   max-width: 1200px;
 }
 
+/* Text */
+.purple-text {
+  color: var(--color-purple);
+  font-weight: var(--weight-bold);
+}
+
+.coiny {
+  font-family: var(--font-coiny);
+}
+
 /* Nav bar */
 .header-logo-img {
   height: 30px;

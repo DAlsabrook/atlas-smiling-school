@@ -38,10 +38,6 @@ header {
   font-weight: var(--weight-light);
 }
 
-.purple-text {
-  color: var(--color-purple);
-  font-weight: var(--weight-bold);
-}
 
 /* Quote section */
 .quotes-section {
