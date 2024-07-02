@@ -52,13 +52,13 @@
           <div class="collapse navbar-collapse col-12 col-sm-3 text-center justify-content-sm-end" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" href="./courses.html">COURSES</a>
+                <a class="nav-link mx-3" href="./courses.html">COURSES</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./pricing.html">PRICING</a>
+                <a class="nav-link mx-3" href="./pricing.html">PRICING</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">LOGIN</a>
+                <a class="nav-link mx-3" href="#">LOGIN</a>
               </li>
             </ul>
           </div>
@@ -70,182 +70,188 @@
       </div>
     </div>
   </header>
+
   <main>
-    <section class="form-section container-fluid">
-      <div class="row justify-content-center align-items-center">
-        <!-- Keywords Search Input -->
-        <div class="col-md-4 mb-3 mt-4">
-          <label for="keywords" class="fw-bold">KEYWORDS</label>
-          <input type="text" class="form-control opacity-50" placeholder="Search by keywords" id="keywords">
-        </div>
-        <!-- Topic Dropdown Selector -->
-        <div class="col-md-4 mb-3">
-          <label for="topic" class="fw-bold">TOPIC</label>
-          <select class="form-select opacity-50" id="topic">
-            <option selected>Novice</option>
-            <option value="1">Topic 1</option>
-            <option value="2">Topic 2</option>
-            <option value="3">Topic 3</option>
-          </select>
-        </div>
-        <!-- Sort By Dropdown Selector -->
-        <div class="col-md-4 mb-3">
-          <label for="sort-by" class="fw-bold">SORT BY</label>
-          <select class="form-select opacity-50 form-styling" id="sort-by">
-            <option selected>Most Popular</option>
-            <option value="1">Option 1</option>
-            <option value="2">Option 2</option>
-            <option value="3">Option 3</option>
-          </select>
+    <section class="form-section p-4">
+      <div class="content-container container-fluid">
+        <div class="row justify-content-center align-items-center">
+          <!-- Keywords Search Input -->
+          <div class="col-sm-12 col-md-4 mb-3">
+            <label for="keywords" class="fw-bold form-text">KEYWORDS</label>
+            <input type="text" class="form-control opacity-50" placeholder="Search by keywords" id="keywords">
+          </div>
+          <!-- Topic Dropdown Selector -->
+          <div class="col-sm-6 col-md-4 mb-3">
+            <label for="topic" class="fw-bold form-text">TOPIC</label>
+            <select class="form-select opacity-50" id="topic">
+              <option class="form-option" selected>Novice</option>
+              <option class="form-option" value="1">Topic 1</option>
+              <option class="form-option" value="2">Topic 2</option>
+              <option class="form-option" value="3">Topic 3</option>
+            </select>
+          </div>
+          <!-- Sort By Dropdown Selector -->
+          <div class="col-sm-6 col-md-4 mb-3">
+            <label for="sort-by" class="fw-bold form-text">SORT BY</label>
+            <select class="form-select opacity-50 form-styling" id="sort-by">
+              <option class="form-option" selected>Most Popular</option>
+              <option class="form-option" value="1">Option 1</option>
+              <option class="form-option" value="2">Option 2</option>
+              <option class="form-option" value="3">Option 3</option>
+            </select>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- Video Section -->
-    <section class="videos container-fluid">
-      <div class="row justify-content-center p-3">
-        <!-- Video 1 diagnal smile -->
-        <div class="card border-0 text-start mt-5 col-sm-4">
-          <div class="position-relative">
-            <img src="./images/thumbnail_4.jpg" class="card-img-top" alt="lady smiling">
-            <img src="./images/play.png" alt="play button" class="position-absolute top-50 start-50 translate-middle">
-          </div>
-          <div class="card-body p-1 mt-2">
-            <h5 class="card-title fw-bolder">Diagnal Smile</h5>
-            <p class="card-text mb-0 pb-0">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
-          </div>
-          <ul class="list-group list-group-flush pl-1">
-            <li class="list-group-item border-0 p-0 m-0">
-              <div class="row align-items-center p-0 m-0">
-                <img src="./images/profile_1.jpg" alt="phils pic" class="img-fluid video-guy m-0 p-0">
-                <div class="col-9 text-start">
-                  <p class="mb-0 purple-text video-name">Phillip Massey</p>
-                </div>
+      <!-- Video Section -->
+      <section class="videos p-4">
+        <div class="content-container container-fluid">
+          <div class="row justify-content-center p-3">
+            <h2 class="video-num col-12 opacity-25">11 videos</h2>
+            <!-- Video 1 diagnal smile -->
+            <div class="card border-0 text-start mt-4 mb-2 col-sm-4 col-md-3">
+              <div class="position-relative">
+                <img src="./images/thumbnail_4.jpg" class="card-img-top" alt="lady smiling">
+                <img src="./images/play.png" alt="play button" class="position-absolute top-50 start-50 translate-middle">
               </div>
-            </li>
-            <li class="list-group-item align-items-center p-0 m-0">
-              <div class="row align-items-center justify-content-between p-0 m-0">
-                <div class="col-auto p-0 m-0">
-                  <img src="./images/star_on.png" alt="star" class="star p-0 mr-2">
-                  <img src="./images/star_on.png" alt="star" class="star p-0 mr-2">
-                  <img src="./images/star_on.png" alt="star" class="star p-0 mr-2">
-                  <img src="./images/star_on.png" alt="star" class="star p-0 mr-2">
-                  <img src="./images/star_off.png" alt="dull star" class="star p-0 mr-1">
-                </div>
-                <div class="col-4 text-end p-0 m-0">
-                  <p class="video-time purple-text mb-0">8 min</p>
-                </div>
+              <div class="card-body p-1 mt-2">
+                <h5 class="card-title fw-bolder">Diagnal Smile</h5>
+                <p class="card-text mb-0 pb-0">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
               </div>
-            </li>
-          </ul>
+              <ul class="list-group list-group-flush pl-1">
+                <li class="list-group-item border-0 p-0 m-0">
+                  <div class="row align-items-center p-0 m-0">
+                    <img src="./images/profile_1.jpg" alt="phils pic" class="img-fluid video-guy m-0 p-0">
+                    <div class="col-9 text-start">
+                      <p class="mb-0 purple-text video-name">Phillip Massey</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item align-items-center p-0 m-0">
+                  <div class="row align-items-center justify-content-between p-0 m-0">
+                    <div class="col-auto p-0 m-0">
+                      <img src="./images/star_on.png" alt="star" class="star p-0 mr-2">
+                      <img src="./images/star_on.png" alt="star" class="star p-0 mr-2">
+                      <img src="./images/star_on.png" alt="star" class="star p-0 mr-2">
+                      <img src="./images/star_on.png" alt="star" class="star p-0 mr-2">
+                      <img src="./images/star_off.png" alt="dull star" class="star p-0 mr-1">
+                    </div>
+                    <div class="col-4 text-end p-0 m-0">
+                      <p class="video-time purple-text mb-0">8 min</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <!-- Video 2 sad smile -->
+            <div class="card border-0 text-start mt-4 mb-2 col-sm-4 col-md-3">
+              <div class="position-relative">
+                <img src="./images/thumbnail_3.jpg" class="card-img-top" alt="lady smiling">
+                <img src="./images/play.png" alt="play button" class="position-absolute top-50 start-50 translate-middle">
+              </div>
+              <div class="card-body p-1 mt-2">
+                <h5 class="card-title fw-bolder">Sad Smile</h5>
+                <p class="card-text mb-0 pb-0">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item border-0 p-0 m-0">
+                  <div class="row align-items-center p-0 m-0">
+                    <img src="./images/profile_1.jpg" alt="phils pic" class="img-fluid video-guy m-0 p-0">
+                    <div class="col-9 text-start">
+                      <p class="mb-0 purple-text video-name">Phillip Massey</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item align-items-center p-0 m-0">
+                  <div class="row align-items-center justify-content-between p-0 m-0">
+                    <div class="col-auto p-0 m-0">
+                      <img src="./images/star_on.png" alt="star" class="star p-0 mr-2">
+                      <img src="./images/star_on.png" alt="star" class="star p-0 mr-2">
+                      <img src="./images/star_on.png" alt="star" class="star p-0 mr-2">
+                      <img src="./images/star_on.png" alt="star" class="star p-0 mr-2">
+                      <img src="./images/star_off.png" alt="dull star" class="star p-0 mr-1">
+                    </div>
+                    <div class="col-4 text-end p-0 m-0">
+                      <p class="video-time purple-text mb-0">8 min</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <!-- Video 3 Natural smile -->
+            <div class="card border-0 text-start mt-4 mb-2 col-sm-4 col-md-3">
+              <div class="position-relative">
+                <img src="./images/thumbnail_1.jpg" class="card-img-top" alt="guy smiling">
+                <img src="./images/play.png" alt="play button" class="position-absolute top-50 start-50 translate-middle">
+              </div>
+              <div class="card-body p-1 mt-2">
+                <h5 class="card-title fw-bolder">Natural Smile</h5>
+                <p class="card-text mb-0 pb-0">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item border-0 p-0 m-0">
+                  <div class="row align-items-center p-0 m-0">
+                    <img src="./images/profile_1.jpg" alt="phils pic" class="img-fluid video-guy m-0 p-0">
+                    <div class="col-9 text-start">
+                      <p class="mb-0 purple-text video-name">Phillip Massey</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item align-items-center p-0 m-0">
+                  <div class="row align-items-center justify-content-between p-0 m-0">
+                    <div class="col-auto p-0 m-0">
+                      <img src="./images/star_on.png" alt="star" class="star p-0 mr-2">
+                      <img src="./images/star_on.png" alt="star" class="star p-0 mr-2">
+                      <img src="./images/star_on.png" alt="star" class="star p-0 mr-2">
+                      <img src="./images/star_on.png" alt="star" class="star p-0 mr-2">
+                      <img src="./images/star_off.png" alt="dull star" class="star p-0 mr-1">
+                    </div>
+                    <div class="col-4 text-end p-0 m-0">
+                      <p class="video-time purple-text mb-0">8 min</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <!-- Video 4 Happy smile -->
+            <div class="card border-0 text-start mt-4 mb-2 col-sm-4 col-md-3">
+              <div class="position-relative">
+                <img src="./images/thumbnail_2.jpg" class="card-img-top" alt="guy smiling">
+                <img src="./images/play.png" alt="play button" class="position-absolute top-50 start-50 translate-middle">
+              </div>
+              <div class="card-body p-1 mt-2">
+                <h5 class="card-title fw-bolder">Happy Smile</h5>
+                <p class="card-text mb-0 pb-0">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item border-0 p-0 m-0">
+                  <div class="row align-items-center p-0 m-0">
+                    <img src="./images/profile_1.jpg" alt="phils pic" class="img-fluid video-guy m-0 p-0">
+                    <div class="col-9 text-start">
+                      <p class="mb-0 purple-text video-name">Phillip Massey</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item align-items-center p-0 m-0">
+                  <div class="row align-items-center justify-content-between p-0 m-0">
+                    <div class="col-auto p-0 m-0">
+                      <img src="./images/star_on.png" alt="star" class="star p-0 mr-2">
+                      <img src="./images/star_on.png" alt="star" class="star p-0 mr-2">
+                      <img src="./images/star_on.png" alt="star" class="star p-0 mr-2">
+                      <img src="./images/star_on.png" alt="star" class="star p-0 mr-2">
+                      <img src="./images/star_off.png" alt="dull star" class="star p-0 mr-1">
+                    </div>
+                    <div class="col-4 text-end p-0 m-0">
+                      <p class="video-time purple-text mb-0">8 min</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
-        <!-- Video 2 sad smile -->
-        <div class="card border-0 text-start mt-5 col-sm-4">
-          <div class="position-relative">
-            <img src="./images/thumbnail_3.jpg" class="card-img-top" alt="lady smiling">
-            <img src="./images/play.png" alt="play button" class="position-absolute top-50 start-50 translate-middle">
-          </div>
-          <div class="card-body p-1 mt-2">
-            <h5 class="card-title fw-bolder">Sad Smile</h5>
-            <p class="card-text mb-0 pb-0">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item border-0 p-0 m-0">
-              <div class="row align-items-center p-0 m-0">
-                <img src="./images/profile_1.jpg" alt="phils pic" class="img-fluid video-guy m-0 p-0">
-                <div class="col-9 text-start">
-                  <p class="mb-0 purple-text video-name">Phillip Massey</p>
-                </div>
-              </div>
-            </li>
-            <li class="list-group-item align-items-center p-0 m-0">
-              <div class="row align-items-center justify-content-between p-0 m-0">
-                <div class="col-auto p-0 m-0">
-                  <img src="./images/star_on.png" alt="star" class="star p-0 mr-2">
-                  <img src="./images/star_on.png" alt="star" class="star p-0 mr-2">
-                  <img src="./images/star_on.png" alt="star" class="star p-0 mr-2">
-                  <img src="./images/star_on.png" alt="star" class="star p-0 mr-2">
-                  <img src="./images/star_off.png" alt="dull star" class="star p-0 mr-1">
-                </div>
-                <div class="col-4 text-end p-0 m-0">
-                  <p class="video-time purple-text mb-0">8 min</p>
-                </div>
-              </div>
-            </li>
-          </ul>
-        </div>
-        <!-- Video 3 Natural smile -->
-        <div class="card border-0 text-start mt-5 col-sm-4">
-          <div class="position-relative">
-            <img src="./images/thumbnail_1.jpg" class="card-img-top" alt="guy smiling">
-            <img src="./images/play.png" alt="play button" class="position-absolute top-50 start-50 translate-middle">
-          </div>
-          <div class="card-body p-1 mt-2">
-            <h5 class="card-title fw-bolder">Natural Smile</h5>
-            <p class="card-text mb-0 pb-0">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item border-0 p-0 m-0">
-              <div class="row align-items-center p-0 m-0">
-                <img src="./images/profile_1.jpg" alt="phils pic" class="img-fluid video-guy m-0 p-0">
-                <div class="col-9 text-start">
-                  <p class="mb-0 purple-text video-name">Phillip Massey</p>
-                </div>
-              </div>
-            </li>
-            <li class="list-group-item align-items-center p-0 m-0">
-              <div class="row align-items-center justify-content-between p-0 m-0">
-                <div class="col-auto p-0 m-0">
-                  <img src="./images/star_on.png" alt="star" class="star p-0 mr-2">
-                  <img src="./images/star_on.png" alt="star" class="star p-0 mr-2">
-                  <img src="./images/star_on.png" alt="star" class="star p-0 mr-2">
-                  <img src="./images/star_on.png" alt="star" class="star p-0 mr-2">
-                  <img src="./images/star_off.png" alt="dull star" class="star p-0 mr-1">
-                </div>
-                <div class="col-4 text-end p-0 m-0">
-                  <p class="video-time purple-text mb-0">8 min</p>
-                </div>
-              </div>
-            </li>
-          </ul>
-        </div>
-        <!-- Video 4 Happy smile -->
-        <div class="card border-0 text-start mt-5 col-sm-4">
-          <div class="position-relative">
-            <img src="./images/thumbnail_2.jpg" class="card-img-top" alt="guy smiling">
-            <img src="./images/play.png" alt="play button" class="position-absolute top-50 start-50 translate-middle">
-          </div>
-          <div class="card-body p-1 mt-2">
-            <h5 class="card-title fw-bolder">Happy Smile</h5>
-            <p class="card-text mb-0 pb-0">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item border-0 p-0 m-0">
-              <div class="row align-items-center p-0 m-0">
-                <img src="./images/profile_1.jpg" alt="phils pic" class="img-fluid video-guy m-0 p-0">
-                <div class="col-9 text-start">
-                  <p class="mb-0 purple-text video-name">Phillip Massey</p>
-                </div>
-              </div>
-            </li>
-            <li class="list-group-item align-items-center p-0 m-0">
-              <div class="row align-items-center justify-content-between p-0 m-0">
-                <div class="col-auto p-0 m-0">
-                  <img src="./images/star_on.png" alt="star" class="star p-0 mr-2">
-                  <img src="./images/star_on.png" alt="star" class="star p-0 mr-2">
-                  <img src="./images/star_on.png" alt="star" class="star p-0 mr-2">
-                  <img src="./images/star_on.png" alt="star" class="star p-0 mr-2">
-                  <img src="./images/star_off.png" alt="dull star" class="star p-0 mr-1">
-                </div>
-                <div class="col-4 text-end p-0 m-0">
-                  <p class="video-time purple-text mb-0">8 min</p>
-                </div>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </section>
+      </section>
   </main>
   <footer class="d-flex justify-content-center">
     <div class="content-container container-fluid m-auto py-sm-5 m-sm-0">

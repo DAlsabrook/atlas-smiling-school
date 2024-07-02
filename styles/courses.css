@@ -8,7 +8,6 @@
 
 .form-section {
   background-color: var(--color-purple);
-  height: 317px;
 }
 
 .form-select,
@@ -22,9 +21,21 @@
   appearance: none;
 }
 
+.form-text {
+  font-size: small;
+  color: #FFFFFF;
+}
+
+.form-option {
+  font-family: var(--font-main) !important;
+  font-size: 1.5rem !important;
+}
+
 /* Video section */
-.videos {
-  height: 2000px;
+
+.video-num {
+  color: var(--color-purple-dark);
+  font-size: 1rem;
 }
 
 .card-title {
@@ -36,6 +47,7 @@
 .translate-middle {
   height: 40%;
 }
+
 .card-text {
   font-size: .9rem;
   color: #071629;
