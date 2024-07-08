@@ -1,5 +1,8 @@
 # Responsive Website Project
 
+## Live at
+[Atlas Smiling School](https://dalsabrook.github.io/atlas-smiling-school/)
+
 ## Overview
 This project is a fully functional and responsive website created using HTML, CSS, and Bootstrap. The main goal was to develop a responsive site with minimal custom CSS, leveraging Bootstrap for the majority of the styling and layout.
 
